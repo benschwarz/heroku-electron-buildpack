@@ -22,7 +22,7 @@ mkdir -p $CACHE_DIR/$ARCHIVE_NAME
 mkdir -p $BUILD_DIR/vendor
 
 echo "-----> Moving Electron to ${BUILD_DIR}/vendor/electron"
-unzip $CACHE_DIR/$FILE_NAME -d $CACHE_DIR
+unzip $CACHE_DIR/$FILE_NAME -d $CACHE_DIR/$ARCHIVE_NAME
 mv $CACHE_DIR/$ARCHIVE_NAME $BUILD_DIR/vendor/electron
 
 echo "-----> exporting PATH and LIBRARY_PATH"
