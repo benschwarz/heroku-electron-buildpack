@@ -1,0 +1,10 @@
+#!/bin/sh
+
+cat << EOF
+---
+config_vars:
+  PATH: "/usr/local/bin:/usr/bin:/bin:/app/vendor/electron"
+  LD_LIBRARY_PATH: "/usr/local/lib:/usr/lib:/lib:/app/vendor/electron"
+default_process_types:
+  console: "vendor/electron/phantomjs"
+EOF
