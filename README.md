@@ -2,6 +2,8 @@
 
 This downloads the linux x64 binary of electron and places it in `/app/vendor/electron`.
 
+# This is only tested on the cedar-14 stack and may not work with the latest stack.
+
 ### Prerequisites
 
 Your `.buildpacks` will need the following: 
